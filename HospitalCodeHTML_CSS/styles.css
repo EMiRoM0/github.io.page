@@ -1,0 +1,98 @@
+
+body{
+    background-image: url("fondo.jpg");
+    background-position: center;
+
+    background-size: 100%;
+}
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #1d177342;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos del logo en la barra de navegación */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el tamaño del logo */
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos de los elementos de menú */
+.menu-item {
+    margin: 0 10px;
+    font-family: arial;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilos del segundo div de texto */
+.texto {
+    padding: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/* Estilos del tercer div de imágenes */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+/* Estilos para las imágenes en el tercer div */
+.imagenes img {
+    width: 250px;
+    height: 300px;
+    margin: 0 10px; /* Separación entre imágenes */
+}
+
+/* Estilos del cuarto div de iconos */
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+
+}
+
+/* Estilos para los íconos en el cuarto div */
+.iconos img {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px; /* Separación entre íconos */
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Estilos para los íconos */
+.icon {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+p{
+    font-family: fantasy;
+    color: rgb(70, 9, 253);
+}
+
+h1{
+    font-family: fantasy;
+    color: rgb(249, 249, 253);
+
+}
+
