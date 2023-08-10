@@ -106,22 +106,22 @@ nurse1 = Staff("Nurse María José", "Nurse")
 nurse2 = Staff("Nurse Juan Carlos", "Nurse")
 
 #Instances of the medical deparment.
-medical_department1 = Department("Anesthesiology", "Branch of medicine dedicated to pain relief and total patient care before, during and after surgery.", doctor1)
-medical_department2 = Department("Cardiology", "Branch of medicine that deals with the study, diagnosis and treatment of diseases of the heart and circulatory system.", doctor2)
-medical_department3 = Department("Intensive Care", "It is a special facility within the hospital area that provides intensive medicine.", nurse1)
-medical_department4 = Department("Gastroenterology", "Study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts, and liver.", doctor3)
+medical_department1 = Department("Anesthesiology", "Branch of medicine dedicated\nto pain relief and total patient care before,\n during and after surgery.", doctor1)
+medical_department2 = Department("Cardiology", "Branch of medicine that deals\nwith the study, diagnosis and treatment of\n diseases of the heart and circulatory system.", doctor2)
+medical_department3 = Department("Intensive Care", "It is a special facility within\nthe hospital area that provides intensive medicine.", nurse1)
+medical_department4 = Department("Gastroenterology", "Study of the normal function and\ndiseases of the esophagus, stomach, small intestine,\ncolon and rectum, pancreas, gallbladder, bile ducts, and liver.", doctor3)
 
 #Instances of the surgical department.
-surgical_department1 = Department("General Surgery", "It includes the diagnosis and treatment of diseases that are resolved by surgical or potentially surgical procedures, both elective and urgent.", doctor4)
-surgical_department2 = Department("Orthopedics and Traumatology", "Traumatology is the branch of medicine dedicated to the study of injuries to the musculoskeletal system.", doctor6)
-surgical_department3 = Department("Dermatology", "It is a specialty of medicine that deals with the knowledge and study of human skin and the diseases that affect it.", doctor3)
-surgical_department4 = Department("Gynecology and Obstetrics", "This combined training makes those who practice it experts in the health care of the female reproductive organs and in the management of obstetric complications, even through surgical interventions.", doctor5)
+surgical_department1 = Department("General Surgery", "It includes the diagnosis and\ntreatment of diseases that are resolved by\nsurgical or potentially surgical procedures,\nboth elective and urgent.", doctor4)
+surgical_department2 = Department("Orthopedics and Traumatology", "Traumatology is the branch\nof medicine dedicated to the study of injuries\nto the musculoskeletal system.", doctor6)
+surgical_department3 = Department("Dermatology", "It is a specialty of medicine\nthat deals with the knowledge and study of\nhuman skin and the diseases that affect it.", doctor3)
+surgical_department4 = Department("Gynecology and Obstetrics", "This combined training makes\nthose who practice it experts in the health\ncare of the female reproductive organs and\nin the management of obstetric complications,\neven through surgical interventions.", doctor5)
 
 #Instances of the diagnostic department.
-diagnostic_department1 = Department("Clinical Laboratories", "The clinical laboratory brings together a multidisciplinary team that analyzes human biological samples to study, prevent disease and expand medical knowledge.", doctor2)
-diagnostic_department2 = Department("Radiology", "Branch of medicine that uses imaging technology to diagnose and treat disease.", doctor5)
-diagnostic_department3 = Department("Pharmacy", "Science that studies everything related to the preparation, preservation, promotion and dispensing of medicines.", nurse2)
-diagnostic_department4 = Department("Preventive Medicine", "It focuses on preventing health problems before they occur.", doctor4)
+diagnostic_department1 = Department("Clinical Laboratories", "The clinical laboratory brings\ntogether a multidisciplinary team that analyzes\nhuman biological samples to study,\nprevent disease and expand medical knowledge.", doctor2)
+diagnostic_department2 = Department("Radiology", "Branch of medicine that uses\nimaging technology to diagnose and treat disease.", doctor5)
+diagnostic_department3 = Department("Pharmacy", "Science that studies everything\nrelated to the preparation, preservation,\npromotion and dispensing of medicines.", nurse2)
+diagnostic_department4 = Department("Preventive Medicine", "It focuses on preventing health\nproblems before they occur.", doctor4)
 
 #Instance of the Hospital.
 hospital = Hospital("Quarks Medic", "20126", "Monkeys St. 146", "616-348", "Private", 150, 9.3,
